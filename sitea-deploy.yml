@@ -1,7 +1,7 @@
 ---
 - name: Deploy site web infrastructure
   hosts: sitea
-    become: yes
+  become: yes
 
-      roles:
-          - apache-simple
+  roles:
+    - apache-simple
